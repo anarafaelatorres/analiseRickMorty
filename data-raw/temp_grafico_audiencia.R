@@ -15,25 +15,26 @@ rick_and_morty %>%
     y = "audiencia",
     fill = "temporada",
     title = "Rick and Morty"
-  ) +
-  theme(
-    text = element_text(
+  ) + theme(
+    text = ggplot2::element_text(
       colour = "#11a2c6",
       family = "Get Schwifty",
       size = 16
     ),
-    plot.title = element_text(
+    plot.title = ggplot2::element_text(
       family = "Get Schwifty",
       hjust = 0.5,
       size = 30
     ),
-    axis.text = element_text(color = "white"),
-    axis.ticks.x = element_line(color = "white"),
-    panel.background = element_rect(fill = "black"),
-    panel.grid.major.y = element_line(size = 0.1),
-    panel.grid.minor = element_blank(),
-    panel.grid.major.x = element_blank(),
+    axis.text = ggplot2::element_text(color = "white"),
+    axis.ticks.x = ggplot2::element_line(color = "white"),
+    panel.background = ggplot2::element_rect(fill = "black"),
+    panel.grid.major.y = ggplot2::element_line(size = 0.1),
+    panel.grid.minor = ggplot2::element_blank(),
+    panel.grid.major.x = ggplot2::element_blank(),
     legend.position = "bottom",
-    legend.background = element_rect(fill = "black", color = "black"),
-    plot.background = element_rect(fill = "black", color = "black")
+    legend.background = ggplot2::element_rect(fill = "black", color = "black"),
+    plot.background = ggplot2::element_rect(fill = "black", color = "black")
   )
+
+

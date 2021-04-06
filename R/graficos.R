@@ -1,5 +1,5 @@
-tema <- function(){
-  theme(
+tema_rickmorty <- function() {
+  ggplot2::theme(
     text = ggplot2::element_text(
       colour = "#11a2c6",
       family = "Get Schwifty",
@@ -20,5 +20,8 @@ tema <- function(){
     legend.background = ggplot2::element_rect(fill = "black", color = "black"),
     plot.background = ggplot2::element_rect(fill = "black", color = "black")
   )
-
 }
+
+
+
+
